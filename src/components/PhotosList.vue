@@ -7,11 +7,13 @@
         mail="AlexKur-web@yandex.ru"
         phone="83673737383"
         />
+        <PictureFeed />
     </div>
 </template>
 <script>
 import Banner from "../layout/Banner.vue"
 import Contacts from "../layout/Contacts.vue"
+import PictureFeed from "../components/PictureFeed.vue"
 export default {
     data(){
         return {
@@ -20,7 +22,8 @@ export default {
     },
     components: {
         Banner,
-        Contacts
+        Contacts,
+        PictureFeed
     }
 }
 </script>
